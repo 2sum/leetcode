@@ -7,29 +7,40 @@ class Solution(object):
     def parenthesis(self,par):
         stack = []
         ind_to_remove = set()
+        dic={"}":"{",")":"(","]":"["}
         ind=0
         for i,c in enumerate(par):
             if c not in "(){}[]":
+                print("IN first if:",i,c)
                 continue
-            if c=="(" or c=="[" or c=="{":
+            if c in dic.values():
                 stack.append(i)
+                print("IN 2nd if:",i,c)
             elif not stack:
                 ind_to_remove.add(i)
+                print("IN ELif remove IND:",i,c)
             else:
-                stack.pop()
+                print("IN ELSE POP:",i,c,stack)
+                if par[stack[-1]]==dic[c]:
+                    print("      popping:",stack)
+                    stack.pop()
+                    print("      After popping:",stack)
+                else:
+                    ind_to_remove.add(i)
+                    print("   IND_TO_REMOVE:",ind_to_remove)
+                
         print(stack,ind_to_remove)
         ind_to_remove = ind_to_remove.union(set(stack))
         res=[]
+        print(stack,ind_to_remove)
         for i,c in enumerate(par):
             if i not in ind_to_remove:
                 res.append(c)
         return "".join(res)
-
-
-            
                     
 s=Solution()
+#strng = "[b(d)s}a"
 strng="b(d)ss{}s}a"
 #strng="(a(b(c)d)"
 #strng=")("
-print(s.parenthesis(strng))
+print("RESULT:",s.parenthesis(strng))
