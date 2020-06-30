@@ -6,7 +6,7 @@ class Solution(object):
         for c in S:
             if c=="(":
                 res.append(c)
-            if c==")":#
+            if c==")":
                 if len(res)>0:
                     res.pop()
                 else:
