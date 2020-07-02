@@ -31,7 +31,7 @@ class Solution(object):
         #return stat.st_mtime
 
 s=Solution()
-fl="/Users/malaybiswal/Downloads/a.txt"
+fl="/tmp/Downloads/a.txt"
 with open(fl,'r') as r:
     loglines = s.tail(fl,r)
     for line in loglines:
