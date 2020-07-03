@@ -26,6 +26,7 @@ class Solution(object):
                 cur_pos=cur_pos-len(chunk)
         return s
 s=Solution()
-fl="/Users/malaybiswal/Downloads/a.txt"
-n=3
+fl=input("Enter File Name:")
+n=input("Enter tail count:")
+n=int(n)
 print(s.tail(fl,n))
