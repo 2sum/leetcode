@@ -6,7 +6,7 @@ class Solution(object):
         e1=len(e[0])
         e2=len(e[1])
         l=len(email)
-        w = open("/Users/malaybiswal/malay_procore/python/leetcode/nobodyop.txt","w")
+        w = open("/tmp/nobodyop.txt","w")
         cur_line=""
         i=0
         with open(fl,'r') as reader:
@@ -50,4 +50,4 @@ class Solution(object):
 
 
 s=Solution()
-s.replace('/Users/malaybiswal/malay_procore/python/leetcode/nobody.txt')
+s.replace('/tmp/nobody.txt')
