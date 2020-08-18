@@ -1,3 +1,4 @@
+#random paragraph
 import random
 class Solution(object):
     def paragraph(self,fl):
@@ -15,11 +16,33 @@ class Solution(object):
                     s=""
                 elif '%' not in c:
                     s+=c
+            #print(res)
         res_len=len(res)
         r=random.randint(1,res_len)
+        print("random Number:",r)
+        print(res)
         return res[r]
 
 
 s=Solution()
-fl="par.txt"
+fl="/tmp/par.txt"
+#for _ in range(10):
 print(s.paragraph(fl))
+
+"""
+Print random paragraph
+
+Sample data:
+Hello
+World
+%
+AAA
+%
+BBB
+BBB
+BBB
+%
+%
+ABCD
+%
+"""
