@@ -1,0 +1,16 @@
+127.0.0.1 - frank [10/Oct/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326
+127.0.0.1 - frank [10/Sep/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326
+192.168.2.1 - xyz [10/Oct/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326
+192.168.2.1 - xyz [10/Oct/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326
+192.168.2.1 - xyz [10/Oct/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326
+192.167.2.1 - xyz [10/Jan/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326
+10.16.2.0 - xyz [10/Feb/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326
+10.16.2.1 - xyz [10/Feb/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326
+10.16.2.14 - xyz [11/Feb/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326
+10.16.2.11 - xyz [28/Feb/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326
+10.16.2.100 - xyz [18/Feb/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326
+10.30.2.10 - xyz [08/Feb/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326
+10.30.2.11 - xyz [09/Feb/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326
+10.32.2.11 - xyz [09/Feb/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326
+10.32.2.11 - xyz [09/Feb/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326
+10.32.2.11 - xyz [09/Feb/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326
