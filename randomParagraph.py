@@ -10,11 +10,11 @@ class Solution(object):
             while(c):
                 
                 c=f.readline()
-                if '%' in c:
+                if c.strip()=='%':
                     cnt+=1
                     res[cnt]=s
                     s=""
-                elif '%' not in c:
+                else:
                     s+=c
             #print(res)
         res_len=len(res)
