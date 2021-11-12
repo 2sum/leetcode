@@ -43,7 +43,7 @@ class Solution:
         j=0
         res={}
         dc={}
-        with open ('/Users/malaybiswal/malay_personal/python/LC/service.txt','r') as f1:
+        with open ('/Users/xxx/python/LC/service.txt','r') as f1:
             lines=f1.readline()
             while(lines!=''):
                 i+=1
@@ -57,7 +57,7 @@ class Solution:
                         res[line[1].strip()]=temp+temp2
                 lines=f1.readline()
         print(res)
-        with open ('/Users/malaybiswal/malay_personal/python/LC/dc.txt','r') as f2:
+        with open ('/Users/xxx/python/LC/dc.txt','r') as f2:
             lns=f2.readline()
             while(lns!=''):
                 j+=1
