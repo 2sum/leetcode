@@ -76,6 +76,8 @@ Linked List
 - Remove Nth Node From End Of List - https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 - Reorder List - https://leetcode.com/problems/reorder-list/
 - Reverse Linked List II - https://leetcode.com/problems/reverse-linked-list-ii
+- Middle of linked list - https://leetcode.com/problems/middle-of-the-linked-list/
+- Remove middle node from linkedlist - https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
 
 ---
 
