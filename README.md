@@ -106,7 +106,7 @@ String
 ---
 
 Tree
-
+- Diamater of Teee https://leetcode.com/problems/diameter-of-binary-tree/
 - Maximum Depth of Binary Tree - https://leetcode.com/problems/maximum-depth-of-binary-tree/
 - Path SUm II - https://leetcode.com/problems/path-sum-ii/submissions/
 - Same Tree - https://leetcode.com/problems/same-tree/
