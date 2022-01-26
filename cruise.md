@@ -55,16 +55,16 @@ def findBatteryLevel(url,vin,make,flag):
     print("RES DICT:",res)
     #print("DEBUG before loop:",flag,res)
     return res
-#     for k,v in res.items():
-#             #i+=1
-#             #print("DEBUG:",len(v),flag,k,v)
-#         if len(v) >0 and not flag:
-#             print(k+"\n"+v[0]+"\n")
-#                 #flag=True
+     for k,v in res.items():
+             #i+=1
+             #print("DEBUG:",len(v),flag,k,v)
+         if len(v) >0 and not flag:
+             print(k+"\n"+v[0]+"\n")
+                 #flag=True
                 
-#         else:
-#                 #print("IN ELSE")
-#             print(v[i]+"\n")
+         else:
+                 #print("IN ELSE")
+             print(v[i]+"\n")
         # else:
         #     if len(v)>1:
         #         for j in range(1,len(v)-1):
