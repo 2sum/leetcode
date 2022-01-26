@@ -79,12 +79,21 @@ def findBatteryLevel(url,vin,make,flag):
     
 
 url = 'http://getcruise.com/cars/'
+
 flag=False
+
 for make,vin in s.items():
+
     findBatteryLevel(url,vin,make,flag)
+    
     flag=True
-print("--------------------------")      
+    
+print("--------------------------") 
+
 for k,v in res.items():
+
     print(k)
+    
     for i in v:
+    
         print(i)
