@@ -25,13 +25,13 @@ Write a small program that will print out the battery level followed by all the 
 
 # Example Output:
 
-"""
+
 Level 4
 BoltyMcBoltface
 Penguin
 Level 3
 Beetle
-"""
+
 
 import random
 
